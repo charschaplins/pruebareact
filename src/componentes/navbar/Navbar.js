@@ -18,7 +18,7 @@ const navbar = () => {
           
         </li>
         <li className="nav-item">
-          <Link name='home' className="nav-link" to='/home'>
+          <Link name='home' className="nav-link" to='/'>
           <FontAwesomeIcon icon={faHouse}/> Inicio
          </Link>
         </li>

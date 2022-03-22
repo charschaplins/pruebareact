@@ -72,7 +72,7 @@ function App() {
 
           <Switch>
 
-          <Route path='/home' exact component={Inicio}> 
+          <Route path='/' exact component={Inicio}> 
           <Inicio data={personaje}/>
           </Route>
           <Route path='/favoritos' exact component={Favoritos}> 
