@@ -33,8 +33,8 @@ const favoritos = ({data}) => {
                                     <Card.Text>Color de Cabello: { personaje.hair_color} </Card.Text>
                                     <Card.Text>Color de ojos: { personaje.eye_color} </Card.Text>
                                     <Card.Text>Fecha Nacimiento: { personaje.birth_year} </Card.Text>
-                                    <Button variant="primary" onClick={Eliminar}>
-                                      Agregar a Favoritos
+                                    <Button variant="danger" onClick={Eliminar}>
+                                      Eliminar de Favoritos
                                       </Button>
                                   </Card.Body>
                                 </Card>
