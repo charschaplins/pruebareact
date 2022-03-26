@@ -31,6 +31,9 @@ export default function  Incio({data}){
                                               <Card.Title><h1>{personaje.name}</h1></Card.Title>
                                               <Card.Text>Altura: { personaje.height} </Card.Text>
                                               <Card.Text>Peso: { personaje.mass} </Card.Text>
+                                              <Card.Text>Genero: { personaje.gender} </Card.Text>
+                                              <Card.Text>Color de Cabello: { personaje.hair_color} </Card.Text>
+                                              <Card.Text>Color de ojos: { personaje.eye_color} </Card.Text>
                                               <Card.Text>Fecha Nacimiento: { personaje.birth_year} </Card.Text>
                                               <Button variant="primary" onClick={Presionar}>
                                                 Agregar a Favoritos
